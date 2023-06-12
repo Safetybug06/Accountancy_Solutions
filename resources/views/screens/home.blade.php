@@ -3,54 +3,29 @@
 @section('content')
     <!--hero section start-->
 
-    <section class="banner p-0 position-relative fullscreen-banner">
-        <div class="banner-slider owl-carousel no-pb" data-dots="false" data-nav="true">
-            <div class="item" data-bg-img="images/bg/04.jpg" data-overlay="5">
-                <div class="align-center p-0">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-7 col-md-12">
-                                <h1 class="mb-4 text-white animated1">Your One Stop Solution for all your accounting needs.
-                                </h1>
-                                <p class="lead text-white animated2">A reliable accounting processing service that provides
-                                    Professional and Excellent Services in UK, Jamaica and India since 2001.</p>
-                                <div class="animated3 mt-5">
-                                    <a class="btn btn-2" href="about"> <span class="btn-icon btn-arrow"></span>
-                                        <span class="btn-text">Learn More</span>
-                                    </a>
-                                    <a class="btn btn-2 btn-border white" href="contact"> <span
-                                            class="btn-icon btn-arrow"></span>
-                                        <span class="btn-text">Contact Us</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{-- <div class="item" data-bg-img="images/bg/03.jpg" data-overlay="5">
-        <div class="align-center p-0">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-7 col-md-12">
-                <h1 class="mb-4 text-white animated1">Provide Professional Consulting</h1>
-                <p class="lead text-white animated2">Start working with an company that provide everything you need to
-                  generate awareness, drive traffic, connect with customers.</p>
-                <div class="animated3 mt-5">
-                  <a class="btn btn-2" href="#"> <span class="btn-icon btn-arrow"></span>
+    <div class="videoContainer">
+        <div class="overlay"></div>
+        <div class="overlay-text" data-aos="fade-down">
+            <h1 class="mb-4 text-white animated1">Your One Stop Solution for all your accounting needs.
+            </h1>
+            <p class="lead text-white animated2">A reliable accounting processing service that provides
+                Professional and Excellent Services in UK, Jamaica and India since 2001.</p>
+            <div class="animated3 mt-5">
+                <a class="btn btn-2" href="about"> <span class="btn-icon btn-arrow"></span>
                     <span class="btn-text">Learn More</span>
-                  </a>
-                  <a class="btn btn-2 btn-border white" href="#"> <span class="btn-icon btn-arrow"></span>
+                </a>
+                <a class="btn btn-2 btn-border white" href="contact"> <span class="btn-icon btn-arrow"></span>
                     <span class="btn-text">Contact Us</span>
-                  </a>
-                </div>
-              </div>
+                </a>
             </div>
-          </div>
         </div>
-      </div> --}}
-        </div>
-    </section>
+        <video autoplay loop muted>
+            <source src="images/video1.mp4" type="video/mp4">
+            {{-- <source src="http://inserthtml.com/demos/javascript/background-videos/flowers.webm" type="video/webm"> --}}
+        </video>
+
+    </div>
+
 
     <!--hero section end-->
 
@@ -61,7 +36,7 @@
 
         <!--form start-->
 
-        <section class="position-relative pt-0 mt-md-n8 z-index-1">
+        <section class="mt-md-1">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -70,8 +45,6 @@
                                 <div class="section-title mb-4">
                                     <h2 class="title">Contact Us</h2>
                                 </div>
-                                {{-- <p class="line-h-3 text-rgba">Consulterz have facility to produce adipisicing elit, changes and
-                  industrial systems.</p> --}}
                                 <form id="queto-form" method="post" action="#">
                                     <div id="formmessage"></div>
                                     <div class="form-group">

@@ -107,8 +107,7 @@ span,
 #ht-preloader { background: #ffffff; bottom: 0; height: 100%; left: 0; overflow: hidden !important; position: fixed; right: 0; text-align: center; top: 0; width: 100%; z-index: 99999; }
 .clear-loader { z-index: 999; box-sizing: border-box; display: inline-block; left: 50%; position: absolute; text-align: center; top: 50%; }
 .loader { position: relative; width: 300px; height: 50px; top: 45%; top: -webkit-calc(50% - 25px); top: calc(50% - 10px); left: 25%; left: -webkit-calc(50% - 150px); left: calc(50% - 150px); }
-.loader:before { content: ""; position: absolute; background-color: #E31E24
-; top: 0px; left: 0px; height: 50px; width: 0px; z-index: 0; opacity: 1; -webkit-transform-origin: 100% 0%; transform-origin: 100% 0%; -webkit-animation: loader4 10s ease-in-out infinite; animation: loader4 10s ease-in-out infinite; }
+.loader:before { content: ""; position: absolute; background-color: #4a5157; top: 0px; left: 0px; height: 50px; width: 0px; z-index: 0; opacity: 1; -webkit-transform-origin: 100% 0%; transform-origin: 100% 0%; -webkit-animation: loader4 10s ease-in-out infinite; animation: loader4 10s ease-in-out infinite; }
 .loader:after { content: "Accountancy Solutions"; color: #009846
 
 ; font-weight: bold; font-size: 50px; position: absolute; letter-spacing: 1px; width: 100%; height: 50px; line-height: 50px; left: 0; top: 0; }
@@ -241,8 +240,7 @@ span,
 #header-wrap.fixed-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 999 !important; background: #009846
 
 ; animation: smoothScroll 1s forwards;}
-/* #header-wrap::before { background: #E31E24
-; content: ""; width: 25%; height: 100%; right: 0; position: absolute; } */
+/* #header-wrap::before { background: #4a5157; content: ""; width: 25%; height: 100%; right: 0; position: absolute; } */
 
 @keyframes smoothScroll {
   0% {
@@ -286,8 +284,7 @@ span,
 .navbar-nav .dropdown-submenu { display: block; position: relative; }
 .navbar-brand { margin-right: 0; }
 .navbar-nav .nav-link { color: #ffffff; font-weight: 600; padding: 0 15px !important; border-radius: 0; text-transform: capitalize; position: relative; }
-.navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link.active {background: #E31E24
-; color: #ffffff; }
+.navbar-nav .nav-link:hover, .navbar-nav .nav-item .nav-link.active {background: #4a5157; color: #ffffff; }
 
 .header-2 { position: absolute;}
 .header-2 #header-wrap::before, .header-3 #header-wrap::before, .header-4 #header-wrap::before{display: none;}
@@ -297,8 +294,7 @@ span,
 .header-2 .topbar-link a, .header-2 .topbar-link p,
 .header-3 .topbar-link a, .header-3 .topbar-link p,
 .header-4 .topbar-link a, .header-4 .topbar-link p{font-size: 13px;}
-.header-2 .topbar-link i {font-size: 20px; color: #E31E24
-}
+.header-2 .topbar-link i {font-size: 20px; color: #4a5157}
 .header-2 .header-top .social-icons li a,
 .header-2 .topbar-link a, .header-2 .topbar-link p,
 .header-2 .language-selection button{color: #ffffff}
@@ -308,8 +304,7 @@ span,
 .header-3 .cart a i{font-size: 18px;}
 
 @media (min-width:992px) {
-.header-2 .navbar-nav .nav-link:hover, .header-2 .navbar-nav .nav-item .nav-link.active{background: none; color: #E31E24
-}
+.header-2 .navbar-nav .nav-link:hover, .header-2 .navbar-nav .nav-item .nav-link.active{background: none; color: #4a5157}
 .header-3 .navbar-nav .nav-link:hover, .header-3 .navbar-nav .nav-item .nav-link.active{background: #009846
 
 ;}
@@ -367,16 +362,13 @@ span,
 .media-icon.list-inline li { display: inline-block; }
 .media-icon li { margin-bottom: 25px; font-size: 16px; font-weight: 400; }
 .media-icon li:last-child { margin-bottom: 0; }
-.media-icon li i { font-size: 30px; color: #E31E24
-; vertical-align: middle; line-height: 30px; margin-right: 10px;}
+.media-icon li i { font-size: 30px; color: #4a5157; vertical-align: middle; line-height: 30px; margin-right: 10px;}
 .media-icon li a { color: rgba(255,255,255,0.8); }
-.media-icon li a:hover { color: #E31E24
-; }
+.media-icon li a:hover { color: #4a5157; }
 .footer-list li { margin-bottom: 15px; text-transform: capitalize; }
 .footer-list li:last-child { margin-bottom: 0; }
 .footer-list li a {font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.8); }
-.footer-list li a:hover {color: #E31E24
-; }
+.footer-list li a:hover {color: #4a5157; }
 .copyright span { color: rgba(255,255,255,0.8);}
 .copyright span a { color: #ffffff }
 

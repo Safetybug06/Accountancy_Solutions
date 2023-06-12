@@ -38,8 +38,7 @@ body {font-family: 'Poppins', sans-serif; font-weight: 400; font-style: normal; 
 h1, h2, h3, h4, h5, h6 {font-weight: normal; margin-top: 0px; margin-bottom: 0px; text-transform: capitalize;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 60px; font-style: normal; line-height: 70px; font-weight: 600; text-transform: capitalize; color: #081b3a; letter-spacing: 0; }
-h2 { font-size: 40px; font-style: normal; line-height: 50px; font-weight: 600; color: #E31E24
-; text-transform: capitalize; margin-bottom: 10px; position: relative; }
+h2 { font-size: 40px; font-style: normal; line-height: 50px; font-weight: 600; color: #4a5157; text-transform: capitalize; margin-bottom: 10px; position: relative; }
 h3 { font-size: 30px; font-style: normal; line-height: 40px; font-weight: 500; color: #081b3a; }
 h4 { font-size: 24px; font-style: normal; margin-bottom: 10px; font-weight: 500; line-height: 34px; color: #081b3a; }
 h5 { font-size: 20px; font-style: normal; margin-bottom: 10px; font-weight: 500; line-height: 26px; color: #081b3a; }
@@ -100,8 +99,7 @@ section { padding: 80px 0; }
 .theme-bg { background-color: #009846
 
 ; }
-.theme-bg-2 { background-color: #E31E24
-; }
+.theme-bg-2 { background-color: #4a5157; }
 .transparent-bg { background-color: inherit !important; }
 
 
@@ -417,3 +415,45 @@ input.form-product {-moz-appearance: textfield; height: 40px; border: none; back
 .side-top-bg:before{content: ""; background: #009846
 
 ; position: absolute; right: 0; width: 100%; height: 200px; top: 0; border-radius: .25rem}
+
+
+
+/* custom video hero */
+
+.videoContainer {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    background-attachment: scroll;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+video{
+    position: relative;
+    display: inline-block;
+    width:100%;
+    height: auto;
+    vertical-align: baseline;
+}
+
+.videoContainer .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    z-index: 2;
+    background: black;
+    opacity: 0.5;
+}
+
+.videoContainer .overlay-text {
+    color: white;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    text-transform: none;
+}
