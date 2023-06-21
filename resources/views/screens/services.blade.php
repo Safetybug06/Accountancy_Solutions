@@ -20,6 +20,65 @@
                     <p class="mb-0">consectetur adipisicing elit. Totam mollitia incidunt vero cupiditate obcaecati iusto
                         tempora unde! Numquam officiis, quae adipisci quam laudantium nulla modi. adipisci quam laudantium
                         nulla modi. Totam mollitia incidunt vero cupiditate obcaecati</p> --}}
+
+                <!-- Services Grid start -->
+                <div class="container text-center p-2 border-bottom border-top mt-4">
+                    <h3 class="mb-4 mt-4">List of Services :</h3>
+                    <div class="row text-center p-1">
+                      <div class="col-md text-center p-1">
+                        Self Assessment Tax Returns
+                      </div>
+                      <div class="col-md text-center p-1">
+                        Tax Planning and Savings
+                      </div>
+                      <div class="col-md text-center p-1">
+                        Tax Investigations
+                      </div>
+                    </div>
+                    <div class="row text-center p-1">
+                        <div class="col-md text-center p-1">
+                            Bookkeeping
+                        </div>
+                        <div class="col-md text-center p-1">
+                            VAT Processing with MTD Compliance
+                        </div>
+                        <div class="col-md text-center p-1">
+                            Year End Accounts
+                        </div>
+                      </div>
+                      <div class="row text-center p-1">
+                        <div class="col-md text-center p-1">
+                            Corporation Tax
+                        </div>
+                        <div class="col-md text-center p-1">
+                            Payroll
+                        </div>
+                        <div class="col-md text-center p-1">
+                            Payroll-CIS
+                        </div>
+                      </div>
+                      <div class="row text-center p-1">
+                        <div class="col-md text-center p-1">
+                            Auto-Enrollment Pensions
+                        </div>
+                        <div class="col-md text-center p-1">
+                            Making Tax Digital
+                        </div>
+                        <div class="col-md text-center p-1">
+                            Company Secretarial Service
+                        </div>
+                      </div>
+                      <div class="row text-center p-1">
+                        <div class="col-md text-center p-1">
+                            Legal And Insolvency Advice
+                        </div>
+                        
+                      </div>
+                      
+                  </div>
+                <!-- Services Grid end -->
+
+
                 <div class="row mt-3">
                     <div class="col-sm-6 mt-3 mt-sm-0">
                         <div class="featured-item text-center">
@@ -47,6 +106,8 @@
                     </div>
                 </div>
                 
+
+
                 <div class="tab mt-5 grey-bg p-4">
                     <!-- Nav tabs -->
                     <nav>
