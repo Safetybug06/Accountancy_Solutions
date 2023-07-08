@@ -5,31 +5,31 @@
 
     <div class="videoContainer">
         <div class="overlay"></div>
-        <div class="overlay-text" data-aos="fade-down">
-            <h1 class="mb-4 text-white animated1">Your One Stop Solution for all your accounting needs.
+        <div class="overlay-text">
+            <h1 class="mb-4 text-white animated1" data-aos="fade-left" data-aos-duration="3000">Your One Stop Solution for all your accounting needs.
             </h1>
-            <p class="lead text-white animated2">A reliable accounting processing service that provides
+            <p class="lead text-white animated2" data-aos="fade-right" data-aos-duration="3000">A reliable accounting processing service that provides
                 Professional and Excellent Services in UK, Jamaica and India since 2001.</p>
 
             <!--Service carousel start -->
             <div class="mb-5 mt-5 carousel-parent">
-                <h2 class="mb-4 text-white">Our Services : </h2>
-                <div class="carousel">
-                    <ul class="carousel-list">
-                        <li>Self Assessment Tax Returns</li>
-                        <li>Tax Planning and Savings</li>
-                        <li>Tax Investigations</li>
-                        <li>Bookkeeping</li>
-                        <li>VAT Processing with MTD Compliance</li>
-                        <li>Year End Accounts</li>
-                        <li>Corporation Tax</li>
-                        <li>Capital Gains Tax</li>
-                        <li>Payroll</li>
-                        <li>Payroll-CIS</li>
-                        <li>Auto-Enrollment Pensions</li>
-                        <li>Making Tax Digital</li>
-                        <li>Company Secretarial Service</li>
-                        <li>Legal And Insolvency Advice</li>
+                <h2 class="text-white">Our Services : </h2>
+                <div class="wrapper">
+                    <ul class="dynamic-txts">
+                        <li><span> Self Assessment Tax Returns <span></li>
+                        <li><span> Tax Planning and Savings <span></li>
+                        <li><span> Tax Investigations <span></li>
+                        <li><span> Bookkeeping <span></li>
+                        <li><span> VAT Processing with MTD Compliance <span></li>
+                        <li><span> Year End Accounts <span></li>
+                        <li><span> Corporation Tax <span></li>
+                        <li><span> Capital Gains Tax <span></li>
+                        <li><span> Payroll <span></li>
+                        <li><span> Payroll-CIS <span></li>
+                        <li><span> Auto-Enrollment Pensions <span></li>
+                        <li><span> Making Tax Digital <span></li>
+                        <li><span> Company Secretarial Service <span></li>
+                        <li><span> Legal And Insolvency Advice <span></li>
                     </ul>
                 </div>
             </div>
@@ -256,25 +256,6 @@
 @endsection
 
 @section('script')
-    <script>
-        // Get the carousel list
-        const carouselList = document.querySelector('.carousel-list');
-
-        // Set the initial index and transition duration
-        let currentIndex = 0;
-        const transitionDuration = 4000; // 1 second
-
-        // Function to move to the next item in the carousel
-        function moveToNextItem() {
-            currentIndex = (currentIndex + 1) % carouselList.children.length;
-            const translateX = -currentIndex * 100; // Assuming each li element occupies 100% width
-            carouselList.style.transform = `translateX(${translateX}%)`;
-        }
-
-        // Set an interval to move to the next item after 1 second
-        setInterval(moveToNextItem, transitionDuration);
-    </script>
-
 
     <script>
         var element = document.getElementById("homeid");

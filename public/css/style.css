@@ -1377,38 +1377,80 @@ video {
     text-transform: none;
 }
 
+
+
 /* Service Carousel Styles */
-.carousel-parent {
-    width: 100%;
+.wrapper {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 5px 0px 15px 0px;
-}
-
-/* .carousel-parent h2{
-    text-shadow: 2px 2px #515050;
-} */
-
-.carousel {
-    width: 600px; /* Adjust the width as per your preference */
+  }
+  
+  .wrapper .dynamic-txts {
+    /* margin-left: 15px; */
+    height: 90px;
+    line-height: 90px;
     overflow: hidden;
-}
-
-.carousel-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-    transition: transform 4s ease-in-out;
-    display: flex; /* Use flexbox to ensure items are aligned horizontally */
-}
-
-.carousel-list li {
-    flex: 0 0 100%; /* Each item occupies 100% of the carousel width */
-    text-align: center;
+  }
+  
+  .dynamic-txts li {
+    list-style: none;
+    color: white;
     font-size: 24px;
-    /* Add other styles as per your preference */
-}
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 18s infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    7.14% {
+      top: 0;
+    }
+    14.29% {
+      top: -90px;
+    }
+    21.43% {
+      top: -180px;
+    }
+    28.57% {
+      top: -270px;
+    }
+    35.71% {
+      top: -360px;
+    }
+    42.86% {
+      top: -450px;
+    }
+    50% {
+      top: -540px;
+    }
+    57.14% {
+      top: -630px;
+    }
+    64.29% {
+      top: -720px;
+    }
+    71.43% {
+      top: -810px;
+    }
+    78.57% {
+      top: -900px;
+    }
+    85.71% {
+      top: -990px;
+    }
+    92.86% {
+      top: -1080px;
+    }
+    100% {
+      top: -1170px;
+    }
+    107.14% {
+      top: -1260px;
+    }
+  }
+  
